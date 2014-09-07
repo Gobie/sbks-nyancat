@@ -1,9 +1,3 @@
-body {
-  background: #003062;
-  margin: 0px auto;
-  text-align: center;
-}
-
 .wrapper {
   margin-left: 0 auto;
   margin-right: 0 auto;
@@ -23,7 +17,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .rainbow-loaded {
-    background: url("../img/rainbow.png") repeat-x top left;
+    background: url("rainbow.png") repeat-x top left;
     width: 70%;
     height: 75px;
     float: left;
@@ -36,7 +30,7 @@ body {
 
 @media screen and (min-width: 600px) {
   .rainbow-loaded {
-    background: url("../img/rainbow.png") repeat-x top left;
+    background: url("rainbow.png") repeat-x top left;
     width: 75%;
     height: 75px;
     float: left;
@@ -49,7 +43,7 @@ body {
 
 @media screen and (min-width: 700px) {
   .rainbow-loaded {
-    background: url("../img/rainbow.png") repeat-x top left;
+    background: url("rainbow.png") repeat-x top left;
     width: 80%;
     height: 75px;
     float: left;
@@ -62,7 +56,7 @@ body {
 
 @media screen and (min-width: 1000px) {
   .rainbow-loaded {
-    background: url("../img/rainbow.png") repeat-x top left;
+    background: url("rainbow.png") repeat-x top left;
     width: 85%;
     height: 75px;
     float: left;
@@ -75,7 +69,7 @@ body {
 
 @media screen and (min-width: 1400px) {
   .rainbow-loaded {
-    background: url("../img/rainbow.png") repeat-x top left;
+    background: url("rainbow.png") repeat-x top left;
     width: 90%;
     height: 75px;
     float: left;
@@ -87,7 +81,7 @@ body {
 }
 
 .rainbow {
-  background: url("../img/rainbow.png") repeat-x top left;
+  background: url("rainbow.png") repeat-x top left;
   width: 5%;
   height: 75px;
   float: left;
@@ -96,44 +90,3 @@ body {
   position: blocked;
   z-index: -2;
   }
-
-.text {
-  font-family: Georgia, Sans-serif;
-  font-weight: normal;
-  font-size: 80px;
-  color: #FFEA00;
-  float: left;
-  text-align: center;
-  position: relative;
-  width: 100%;
-  margin-top: 2%;
-  margin-bottom: 5%;
-  display:none;
-  cursor: pointer;
-}
-
-.button-wrapper {
-  text-align: center;
-  float: left;
-  width: 100%;
-  margin-top: 2%;
-}
-
-.button {
-  margin: 0px auto;
-  width: 240px;
-  text-align: center;
-  padding: 20px;
-  font-family: Georgia, Sans-serif;
-  font-weight: normal;
-  font-size: 30px;
-  color: #FFEA00;
-  background: #065CB6;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background: #0099FF;
-}
