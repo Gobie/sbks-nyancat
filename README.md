@@ -1,4 +1,3 @@
-sbks-nyancat
-============
+# sbks-nyancat loader
 
 sbks-nyancat
