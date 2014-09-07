@@ -1,0 +1,16 @@
+{
+    "id": "sbks-nyancat",
+    "name": {
+        "element": "sbks-nyancat",
+        "class": "SBKSNyancat"
+    },
+    "files": [
+        "component.js",
+        "nyan-cat.gif",
+        "rainbow.png",
+        "styles.css"
+    ],
+    "examples": "examples/",
+    "readme": "README.md",
+    "minified": true
+}

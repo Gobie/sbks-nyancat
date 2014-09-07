@@ -1,0 +1,27 @@
+{
+  "name": "sbks-nyancat",
+  "version": "0.0.1",
+  "description": "SBKS nyancat as custom element",
+  "main": "build/component.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.3.9",
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gobie/sbks-nyancat.git"
+  },
+  "author": "Michal Brašna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gobie/sbks-nyancat/issues"
+  },
+  "homepage": "https://github.com/Gobie/sbks-nyancat"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "sbks-nyancat",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "w3c-custom-element": "https://raw.githubusercontent.com/WebReflection/document-register-element/master/build/document-register-element.js"
+  }
+}
